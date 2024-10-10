@@ -17,9 +17,8 @@ We leverage **Transfer Learning** by using pre-trained models and adding custom 
 
 1. **VGG16** 🧑‍💻
 2. **ResNet50** 🧑‍🔬
-3. **Xception** 🦸‍♂️
-4. **InceptionV3** 🧙‍♂️
-5. **MobileNetV2** 🦸‍♀️
+3. **InceptionV3** 🧙‍♂️
+4. **MobileNetV2** 🦸‍♀️
 
 Each architecture is loaded with ImageNet weights, and the final layers are customized to handle the binary classification task (Normal vs Pneumonia).
 
@@ -94,7 +93,6 @@ plt.title('Training and Validation Accuracy')
 |--------------|----------|-----------|--------|----------|------|
 | VGG16        | 94.5%    | 93.2%     | 95.0%  | 94.1%    | 0.96 |
 | ResNet50     | 95.1%    | 94.6%     | 95.7%  | 95.1%    | 0.97 |
-| Xception     | 96.2%    | 95.7%     | 96.8%  | 96.2%    | 0.98 |
 | InceptionV3  | 95.8%    | 94.9%     | 96.0%  | 95.4%    | 0.97 |
 | MobileNetV2  | 94.0%    | 92.8%     | 94.2%  | 93.5%    | 0.95 |
 
